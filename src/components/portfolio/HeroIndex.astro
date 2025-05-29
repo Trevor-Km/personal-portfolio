@@ -6,16 +6,18 @@ import { Icon } from "astro-icon/components";
 import Hobbies from "../portfolio/Hobbies.astro";
 
 const  {
-  profileImage = "/images/demo-pfp.webp",
+  profileImage = "/images/profile-pic.webp",
   profileAlt = "Photo of Trevor Kulczycki-McIntyre",
   profileLink = "/about-me",
   profileTitle = "Software Developer",
   profileName = "Trevor Kulczycki-McIntyre",
+  yearStarted = 2023, 
   githubLink = "https://github.com/Trevor-Km",
   githubText = "Do you like this blog's design?",
   portfolioImage = "/images/portfolio.webp",
   email = "trevorkmcintyre@gmail.com",
-} = Astro.props;;
+} = Astro.props;
+
 ---
 
 <section
@@ -77,8 +79,8 @@ const  {
             >{profileTitle}</span
           > with <span
             class="bg-gradient-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent  dark:from-riptide-300 dark:to-mint-200"
-            >3 years of experience</span
-          >, passionate about development, technology, and coffee that sparks ideas. I love bringing digital projects to life. 🚀☕
+            >{new Date().getFullYear() - yearStarted+1} years of experience</span
+          >, passionate about development and technology 🚀
         </p>
 
         <div class="flex gap-4 max-sm:flex-col max-sm:items-center">
@@ -98,10 +100,10 @@ const  {
     </div>
   </div>
   <div
-    class="mx-auto grid max-w-7xl grid-cols-2 grid-rows-4 max-sm:gap-3 gap-4 max-md:h-[80vh] max-sm:h-[900px] max-xl:h-[550px] xl:h-[700px] md:grid-cols-4 md:grid-rows-2"
+    class="mx-auto grid max-w-7xl grid-cols-1 grid-rows-4 max-sm:gap-3 gap-4 max-md:h-[80vh] max-sm:h-[900px] max-xl:h-[550px] xl:h-[700px] md:grid-cols-4 md:grid-rows-2"
   >
     <div
-      class="col-start-2 row-start-2 flex flex-col gap-3 rounded-2xl border border-emerald-50 bg-gradient-to-r from-riptide-200 to-mint-200 p-8 dark:border-zinc-800 dark:border-2 dark:bg-zinc-800 dark:bg-gradient-radial dark:from-riptide-500 dark:to-mint-500 max-md:gap-0 max-xl:p-5 max-md:p-4 max-lg:gap-1 md:col-start-4"
+      class="flex flex-col gap-3 rounded-2xl border border-emerald-50 bg-gradient-to-r from-riptide-200 to-mint-200 p-8 dark:border-zinc-800 dark:border-2 dark:bg-zinc-800 dark:bg-gradient-radial dark:from-riptide-500 dark:to-mint-500 max-md:gap-0 max-xl:p-5 max-md:p-4 max-lg:gap-1 md:col-start"
     >
       <div class="flex flex-col-reverse items-start gap-4 max-md:gap-2">
         <Heading text="Beyond the Code" level={3} />
@@ -109,36 +111,6 @@ const  {
 
       <div class="overflow-y-auto">
         <Hobbies />
-      </div>
-    </div>
-
-    <div
-      class="col-start-1 row-start-2 rounded-2xl bg-gradient-to-r from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 hover:to-mint-300/30 dark:hover:to-mint-600/30 p-[.2rem] transition-all ease-in duration-150 hover:scale-105 hover:shadow-[0_20px_50px_rgba(13,_188,_130,_0.4)] z-40 md:col-start-3"
-    >
-      <div class="h-full w-full overflow-hidden rounded-2xl dark:bg-zinc-900">
-        <div
-          class="relative h-full w-full overflow-hidden rounded-2xl  bg-gradient-to-tr from-riptide-100 to-white dark:from-transparent dark:bg-gradient-to-bl dark:to-transparent "
-        >
-          <a
-            target="_blank"
-            href={githubLink}
-            aria-label="View this site's code repository on GitHub"
-          >
-            <div
-              class="relative flex h-full flex-col gap-8 p-8 dark:before:[background-image:radial-gradient(circle,_rgba(13,188,130)_0,_rgba(1,45,34)_100%)] before:[background-image:radial-gradient(circle,_rgba(95,255,202)_0,_rgba(144,253,210)_100%)] before:absolute before:left-30 before:bottom-30 before:h-[30%] before:aspect-square before:rounded-full before:blur-3xl before:opacity-90 before:transition before:z-0 max-xl:p-5 max-md:p-4 xl:before:bottom-10"
-            >
-              <div class="z-2">
-                <Heading text="Do you like this site's design?" level={3}/>
-              </div>
-
-              <Icon
-                class="absolute -bottom-10 left-30 size-50 text-mint-500/30 group-hover:animate-pulse ease-in-out max-sm:left-10 max-md:left-30 xl:size-56 xl:-bottom-5 xl:-right-24"
-                name="github"
-                aria-hidden="true"
-              />
-            </div>
-          </a>
-        </div>
       </div>
     </div>
 

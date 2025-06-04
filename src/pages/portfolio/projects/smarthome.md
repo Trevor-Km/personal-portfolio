@@ -9,41 +9,41 @@ image:
     alt: "Thumbnail of SmartHome dashboard"
 ---
 
-**SmartHome IoT** is a comprehensive platform designed to seamlessly integrate and manage a wide range of Internet of Things (IoT) devices within a residential environment. By connecting smart appliances, sensors, lighting, security systems, and environmental controls, it enables homeowners to automate daily routines, optimize energy consumption, and enhance overall safety. The system provides real-time monitoring and remote access through intuitive interfaces, allowing users to control their homes from anywhere at any time. With customizable automation rules and intelligent device coordination, SmartHome IoT delivers increased convenience, comfort, and peace of mind, transforming traditional homes into connected, efficient, and responsive living spaces.
+**SmartHome IoT** is a comprehensive platform designed to seamlessly integrate and manage a Raspberry Pi and ESP32 within a residential environment. By connecting smart appliances, sensors, lighting, security systems, and environmental controls, it enables homeowners to automate daily routines, optimize energy consumption, and enhance overall safety. The system provides real-time monitoring and remote access through intuitive interfaces, allowing users to control their homes from anywhere at any time.
 
-The application is built using **C++** for backend logic and database interactions, while **React** powers the interactive front-end components, enabling smooth and responsive user experiences.
+The application is built using **C++** for backend logic and **SQLite** database interactions, while **React** powers the interactive front-end components, enabling smooth and responsive user experiences.
 
 ## 🧩 Features
 
-- Real-time inventory tracking
+**Real-time** updates via the dashboard
 
-- Order tracking with status updates
+**Light Intensity** detection and control
 
-- Low-stock alerts
+**Temperature & Humidity** reading and control
 
-- Section-based storage for modular organization
-
-- Search and filter functionality
+**Email notification** system for alerts and updates
 
 ## 🔒 Security
 
-Two-Factor Authentication (2FA) – Adds an extra layer of protection to user logins
+**RFID Access**: User login using RFID Tags for customizable settings based on the users profile
 
-Role-based access control – Restrict access based on user roles (e.g., admin, staff)
+## 💡Technologies used
 
-## Technologies used
-
-- PHP
-- JavaScript
-- HTML
-- CSS
+- **C++**
+- **React**
+- **JavaScript**
+- **CSS**
+- **Raspberry Pi**
+- **ESP32**
 
 ## 🌐 Demo
+
+![SmartHome photo](../../../../public/images/projects/smarthome-hardware.webp)
 
 <!-- -> Coming soon??? -->
 
 ## 🎯 Objective
 
-To provide small and medium-sized businesses with a simple, efficient, and secure inventory tracking solution that streamlines stock management, improves order visibility, and enhances organizational control through modular storage, real-time updates, and user-focused features.
+To deliver a user-friendly and centralized smart home management system that allows users to monitor, control, and automate household devices and environments in real-time, enhancing convenience, energy efficiency, and home security through seamless integration and intuitive interfaces.
 
 🚀 *Developed by Trevor-Km.*

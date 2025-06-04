@@ -33,7 +33,6 @@ Developed with **Astro** and styled with **TailwindCSS**, NeonMint focuses on sp
 
 ## 🌐 Demo
 
-👉 [View live demo](https://github.com/EFEELE/NeonMint) 
 
 ## 🎯 Objective
 

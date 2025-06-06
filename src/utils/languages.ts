@@ -82,6 +82,14 @@ export const languages: Record<string, Language> = {
   flutter: {
     name: "Flutter",
     iconName: "flutter"
+  },
+  raspi: {
+    name: "Raspberry Pi",
+    iconName: "raspberry-pi"
+  },
+  arduino: {
+    name: "Arduino",
+    iconName: "arduino"
   }
 };
 

@@ -3,7 +3,7 @@ layout: /src/layouts/ProjectLayout.astro
 title: 'SmartHome IoT'
 pubDate: 2025-5-13
 description: 'This SmartHome connects and manages smart devices to automate tasks, monitor energy, and improve home security—all through a simple, centralized platform with real-time control.'
-languages: ["cpp", "react", "javascript"]
+languages: ["cpp", "react", "javascript", "raspi", "arduino"]
 image:
     url: "/images/projects/smarthome.webp"
     alt: "Thumbnail of SmartHome dashboard"

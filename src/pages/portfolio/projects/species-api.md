@@ -17,7 +17,7 @@ The application is built using **PHP** for backend logic and **MySQL** database 
 
 ## 🧩 Features
 
-### 🧬 Species API Features
+### 🧬 Species API
 
 - Retrieve detailed species profiles (name, classification, etc.)
 
@@ -28,8 +28,12 @@ The application is built using **PHP** for backend logic and **MySQL** database 
 - RESTful endpoints with clean, consistent structure
 
 - JSON responses for easy integration
+  
+- Computational Resources that compute complex equations
+  
+- Composite Resources to include responses from external APIs
 
-### ⚙️ Zoologix HTTP Client Features
+### ⚙️ Zoologix HTTP Client
 
 - Simple, fluent interface for making API requests
 

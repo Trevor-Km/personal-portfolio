@@ -1,8 +1,8 @@
 ---
 layout: /src/layouts/ProjectLayout.astro
-title: 'Zoologix Web Server and Client'
+title: 'Zoologix'
 pubDate: 2025-5-21
-description: 'Species-Api is a simple and comprehensive API used for gathering information from species'
+description: 'Zoologix is a REST-API and HTTP Client pair used for gathering information about species'
 languages: ["php", "javascript", "react", "mysql"]
 image:
     url: "/images/projects/zoologix.png"

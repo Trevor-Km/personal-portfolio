@@ -36,11 +36,13 @@ The application is built using **C++** for backend logic and **SQLite** database
 - **Raspberry Pi**
 - **ESP32**
 
-## 🌐 Demo
+## 🌐 Github Link
+
+[SmartHome IoT](https://github.com/Trevor-Km/smarthome-iot)
+
+## ⚙️ Hardware
 
 ![SmartHome photo](../../../../public/images/projects/smarthome-hardware.webp)
-
-<!-- -> Coming soon??? -->
 
 ## 🎯 Objective
 

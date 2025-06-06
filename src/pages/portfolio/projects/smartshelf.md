@@ -17,7 +17,7 @@ The application is built using **PHP** for backend logic and **MySQL** database 
 
 - **Real-time** inventory tracking
 
--** Order tracking** with status updates
+-**Order tracking** with status updates
 
 - **Low-stock alerts**
 
@@ -39,9 +39,9 @@ The application is built using **PHP** for backend logic and **MySQL** database 
 - **CSS**
 - **MySQL**
 
-## 🌐 Demo
+## 🌐 Github Link
 
-<!-- -> Coming soon??? -->
+- [SmartShelf](https://github.com/Trevor-Km/Smartshelf)
 
 ## 🎯 Objective
 
